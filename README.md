@@ -1,6 +1,6 @@
 # HN_Search
 
-This is the repository regarding the analysis of the Hackernews search query dataset.
+This is the repository regarding the analysis of the HackerNews search queries dataset.
 
 
 ## Requirements
@@ -31,15 +31,13 @@ cat ./data/2018* > all.txt
 
 ```
 
-This file all.txt is required in order
+This file all.txt is required in order to execute the notebooks
 
 ## Visualisation
 
-The visualisation in the notebooks are done through the plotly visualisation library, and is highly recommended due to it's interractivity.
+The visualisation in the notebooks are done through the plotly visualisation library, and is highly recommended due to it's interactivity.
 
-However, because of the number of datapoints the visualtion are several megabytes,the notebook will contains static version of the visualisation, therefore, you should re-run the notebooks
-
-A static version of the images will be in the folder images/
+However, because of the number of datapoints the visualtion are several megabytes, the notebook will contains static images (saved in the folder images/) of the visualisation, therefore, you should re-run the notebooks.
 
 3 notebooks are provided in this analysis:
 
